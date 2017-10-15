@@ -2,7 +2,7 @@
 body{
   background-image: url("BackgroundPhoto.jpg");
   background-color:#CABAD2;
-  background-blend-mode:color-burn;
+  background-blend-mode:lighten;
 }
 
 
