@@ -1,4 +1,9 @@
+#container{
+  margin: 0 auto;
+    width: 80%;
+    background-image: url("holdinghands.jpg");
 
+}
 
 
 #header{
