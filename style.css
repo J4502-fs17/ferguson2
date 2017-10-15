@@ -27,7 +27,7 @@ body{
     width:200px;
     background-color:##CABAD2;
     border-style: none;
-    position:absolute;
+    align-content: center;
 }
 
 #nav li a{
