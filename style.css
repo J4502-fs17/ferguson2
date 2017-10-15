@@ -30,6 +30,7 @@ body{
     background-color:##CABAD2;
     border-style: none;
     text-align: center;
+    display: block;
 }
 
 #nav li a{
