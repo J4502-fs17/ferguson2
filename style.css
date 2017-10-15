@@ -10,10 +10,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
-body{
-
-
+#container{
+background-image: url("holding.hands");
 }
+
 
 #nav ul{
     list-style-type:none;
