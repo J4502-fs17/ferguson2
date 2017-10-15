@@ -1,3 +1,7 @@
+#container{
+background-image: url("holding.hands");
+}
+
 #header{
     line-height: 200px;
     margin: auto;
@@ -9,11 +13,6 @@
     font-size: 2.0em;
     font-family: 'Roboto', sans-serif;
 }
-
-#container{
-background-image: url("holding.hands");
-}
-
 
 #nav ul{
     list-style-type:none;
