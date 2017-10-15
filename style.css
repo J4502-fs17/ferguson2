@@ -40,6 +40,7 @@ body{
     text-decoration:none;
     font-family:'Roboto', Helvetica, sans-serif;
     font-weight:bold;
+    align-content: center;
 }
 
 #nav li a:hover{
