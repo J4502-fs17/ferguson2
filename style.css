@@ -51,14 +51,18 @@ body{
     font-weight:bold;
 }
 
-.pageheader{
+h2{
   font-family:'Roboto', Helvetica, sans-serif;
   font-size: 40px;
   color: white;
 }
 
-p{
+h3{
   font-size: 30px;
+}
+
+p{
+  font-size: 20px;
 }
 
 
