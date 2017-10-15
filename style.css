@@ -1,4 +1,4 @@
-h1{
+#header{
     line-height: 200px;
     margin: auto;
     margin-top: -150px;
@@ -11,7 +11,7 @@ h1{
 }
 
 body{
-  
+
 
 }
 
