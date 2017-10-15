@@ -3,7 +3,7 @@ body{
   background-image: url("BackgroundPhoto.jpg");
   background-repeat: no-repeat;
   background-color:#CABAD2;
-  opacity: 2;
+  opacity: inherit:0.4;
 }
 
 
