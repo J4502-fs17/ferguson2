@@ -18,8 +18,7 @@ body{
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
     color: white;
-    text-shadow: 5px 5px 5px #231A28;
-    text-overflow: clip;
+    text-shadow: 7px 7px 7px #000;
 }
 
 #nav ul{
