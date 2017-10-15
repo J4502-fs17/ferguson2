@@ -14,7 +14,7 @@ h1{
     margin:0;
     padding:0;
     width:200px;
-    background-color:#e6d4b6;
+    background-color:#CABAD2;
     border-top:1px solid black;
     border-left:1px solid black;
     border-right:1px solid black;
@@ -27,11 +27,11 @@ h1{
     padding:8px 16px;
     text-decoration:none;
     border-bottom:1px solid black;
-    font-family:"Arimo", Helvetica, sans-serif;
+    font-family:Helvetica, sans-serif;
 }
 
 #nav li a:hover{
-    background-color:#331c17;
+    background-color:#231A28;
     color:#fbfaea;
     font-weight:bold;
 }
