@@ -3,7 +3,6 @@ body{
   background-image: url("BackgroundPhoto.jpg");
   background-repeat: no-repeat;
   background-color:#CABAD2;
-  filter: alpha opacity(90);
 }
 
 
@@ -18,7 +17,7 @@ body{
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
     color: white;
-    text-shadow: 7px 7px 7px #000;
+    text-shadow: 7px 7px 7px #231A28;
 }
 
 #nav ul{
@@ -30,7 +29,7 @@ body{
     background-color:#CABAD2;
     border-style: none;
     text-align: center;
-    display: block;
+    opacity: 0.9;
 }
 
 #nav li a{
@@ -42,7 +41,7 @@ body{
     margin: 0 auto;
     text-decoration:none;
     font-family:'Roboto', Helvetica, sans-serif;
-    font-weight:bold;
+    font-weight:900;
     text-align: center;
 }
 
@@ -52,22 +51,39 @@ body{
     font-weight:bold;
 }
 
+#intro{
+  color:#231A28;
+  background-color: #CABAD2;
+}
+
 h2{
   font-family:'Roboto', Helvetica, sans-serif;
   font-size: 50px;
-  color: white;
+  color: #231A28 ;
+  background-color:#CABAD2;
+  padding-left: 15px;
 }
 
 h3{
+  font-size: 50px;
+  font-family:'Roboto', Helvetica, sans-serif;
+  color: white;
+  background-color: #231A28;
+  padding-left: 15px;
+}
+
+h4{
   font-size: 35px;
   font-family:'Roboto', Helvetica, sans-serif;
   color: white;
+  padding-left: 15px;
 }
 
 p{
   font-size: 20px;
   font-family:'Raleway', Georgia, serif;
   color: white;
+  padding-left: 15px;
 }
 
 
