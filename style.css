@@ -2,7 +2,8 @@
 body{
   background-image: url("BackgroundPhoto.jpg");
   background-color:#CABAD2;
-  opacity:40%; 
+  background-blend-mode:color;
+  opacity:40%;
 }
 
 
