@@ -1,4 +1,4 @@
-#header{
+h1{
     line-height: 200px;
     margin: auto;
     margin-top: -150px;
@@ -6,7 +6,7 @@
     width: 100%;
     position: absolute;
     text-align: center;
-    font-size: 2.0em;
+    font-size: 4.0em;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -51,6 +51,4 @@ body{
 
 /*lavender background for intro section/chapter body #CABAD2
 dark purple background for Who We Are section/chapter headers #231A28
-teal nav hover color #2AD1BB
-
-fonts: font-family: 'Roboto', sans-serif;*/
+teal nav hover color #2AD1BB*/
