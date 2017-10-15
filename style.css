@@ -9,6 +9,17 @@ h1{
     font-size: 4.0em;
 }
 
+#nav ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    width:200px;
+    background-color:#e6d4b6;
+    border-top:1px solid black;
+    border-left:1px solid black;
+    border-right:1px solid black;
+}
+
 
 /*lavender background for intro section/chapter body #CABAD2
 dark purple background for Who We Are section/chapter headers #231A28*/
