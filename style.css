@@ -10,7 +10,7 @@ h1{
 }
 
 body{
-  background-image: image("holdinghands.jpg");
+  background-image: url("holdinghands.jpg");
 }
 
 #nav ul{
