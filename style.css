@@ -9,6 +9,10 @@ h1{
     font-size: 4.0em;
 }
 
+body{
+  background-image: image("holdinghands.jpg");
+}
+
 #nav ul{
     list-style-type:none;
     margin:0;
