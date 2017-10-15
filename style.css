@@ -1,8 +1,7 @@
-#container{
-  margin: 0 auto;
-    width: 80%;
-    background-image: url("holdinghands.jpg");
 
+body{
+  background-image: url("holdinghands.jpg");
+  width: 90%;
 }
 
 
@@ -24,7 +23,9 @@
     padding:0;
     width:200px;
     background-color:##CABAD2;
-    border-style: none;
+    border-top:1px solid black;
+    border-left:1px solid black;
+    border-right:1px solid black;
 }
 
 #nav li a{
