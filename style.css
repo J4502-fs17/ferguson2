@@ -1,7 +1,3 @@
-#container{
-background-image: url("holding.hands");
-}
-
 #header{
     line-height: 200px;
     margin: auto;
@@ -14,11 +10,17 @@ background-image: url("holding.hands");
     font-family: 'Roboto', sans-serif;
 }
 
+#container{
+background-image: url("holding.hands");
+}
+
+
 #nav ul{
     list-style-type:none;
     margin:0;
     padding:0;
     width:200px;
+    text-align: center;
     background-color:#2AD1BB;
     border-top:1px solid black;
     border-left:1px solid black;
