@@ -18,6 +18,7 @@ body{
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
     color: white;
+    text-decoration-style: solid;
 }
 
 #nav ul{
