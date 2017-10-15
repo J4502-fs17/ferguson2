@@ -2,7 +2,7 @@
 body{
   background-image: url("BackgroundPhoto.jpg");
   background-color:#CABAD2;
-  background-blend-mode:lighten;
+  background-blend-mode: color-dodge;
 }
 
 
@@ -17,6 +17,7 @@ body{
     font-size: 2.0em;
     font-weight: 900;
     font-family: 'Roboto', sans-serif;
+    color: white;
 }
 
 #nav ul{
