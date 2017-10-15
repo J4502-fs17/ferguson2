@@ -15,7 +15,7 @@ body{
     position: absolute;
     text-align: center;
     font-size: 2.0em;
-    font-style: oblique;
+    font-weight: bold;
     font-family: 'Roboto', sans-serif;
     color: white;
 }
