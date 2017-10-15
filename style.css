@@ -1,15 +1,9 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-h1{
-=======
 #container{
+width:
 background-image: url("holdinghands.jpg");
 }
 
->>>>>>> origin/master
 #header{
->>>>>>> origin/master
     line-height: 200px;
     margin: auto;
     margin-top: -150px;
@@ -17,14 +11,9 @@ background-image: url("holdinghands.jpg");
     width: 100%;
     position: absolute;
     text-align: center;
-    font-size: 4.0em;
+    font-size: 2.0em;
     font-family: 'Roboto', sans-serif;
 }
-
-#container{
-background-image: url("holding.hands");
-}
-
 
 #nav ul{
     list-style-type:none;
@@ -62,4 +51,6 @@ background-image: url("holding.hands");
 
 /*lavender background for intro section/chapter body #CABAD2
 dark purple background for Who We Are section/chapter headers #231A28
-teal nav hover color #2AD1BB*/
+teal nav hover color #2AD1BB
+
+fonts: font-family: 'Roboto', sans-serif;*/
