@@ -3,9 +3,6 @@ body{
   background-repeat: no-repeat;
   background-color:#CABAD2;
   background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 
@@ -37,7 +34,7 @@ img{
     margin:0 auto;
     display: block;
     padding:0;
-    width:300px;
+    width:40%;
     background-color:rgba(202,186,210, 1);
     border-style: none;
     text-align: center;
@@ -85,7 +82,7 @@ h3{
   font-family:'Roboto', Helvetica, sans-serif;
   color: white;
   background-color: #231A28;
-  padding-left: 15px;
+  padding-left: 30px;
 }
 
 h4{
