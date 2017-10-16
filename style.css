@@ -113,7 +113,12 @@ p{
 
 
 
-
+#gofurther img{
+  position: absolute;
+  right: 0px;
+  width: 500px;
+  padding: 10px;
+}
 
 
 
