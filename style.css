@@ -31,13 +31,13 @@ img{
 
 #nav ul{
     list-style-type:none;
-    margin:0 auto;
-    display: block;
+    margin:auto;
+    display:block;
     padding:0;
-    width:40%;
+    width:98%;
     background-color:rgba(202,186,210, 1);
-    border-style: none;
-    text-align: center;
+    border-style:none;
+    text-align:center;
 }
 
 #nav li a{
