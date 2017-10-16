@@ -2,11 +2,16 @@ body{
   background-image: url("BackgroundPhoto.jpg");
   background-repeat: no-repeat;
   background-color:#CABAD2;
+  background-attachment: fixed;
 }
 
 img{
   border-style: none;
   width: 500px;
+}
+
+.layer {
+  background-color: rgba(202,186,210, 0.9);
 }
 
 #header{
