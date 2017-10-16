@@ -64,6 +64,12 @@ img{
   padding-left: 15px;
 }
 
+div.sticky{
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
 h2{
   font-family:'Roboto', Helvetica, sans-serif;
   font-size: 50px;
