@@ -52,6 +52,7 @@ img{
     background-color:#231A28;
     color:#2AD1BB;
     font-weight:bold;
+    margin: 0 auto;
 }
 
 #intro{
@@ -97,7 +98,8 @@ h6{
   padding-right: 15px;
   padding-top: 15px;
   padding-bottom: 15px;
-  width: 300px;
+  width: 20%;
+  margin-left: 15px;
   text-align: center;
 }
 
