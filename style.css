@@ -36,12 +36,11 @@ img{
     list-style-type:none;
     margin:0 auto;
     display: block;
-    padding:15px;
-    width:100%;
-    background-color:#CABAD2;
+    padding:0;
+    width:300px;
+    background-color:rgba(202,186,210, 1);
     border-style: none;
     text-align: center;
-    opacity: 0.9;
 }
 
 #nav li a{
@@ -59,7 +58,7 @@ img{
 
 #nav li a:hover{
     background-color:#231A28;
-    color:#2AD1BB;
+    color:#EEEEEE;
     font-weight:bold;
     margin: 0 auto;
 }
@@ -123,10 +122,11 @@ p{
 
 
 #gofurther img{
-  position: absolute;
-  right: 0px;
   width: 500px;
   padding: 15px;
+  float: right;
+  margin: 0 0 10px 10px;
+  overflow: auto;
 }
 
 #footer{
