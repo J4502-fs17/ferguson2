@@ -27,7 +27,7 @@ img{
     text-align: center;
     font-size: 2.0em;
     font-weight: bold;
-    font-family: 'Roboto', sans-serif;
+    font-family:'Roboto', Helvetica, sans-serif;
     color: white;
     text-shadow: 7px 7px 7px #231A28;
 }
@@ -145,5 +145,6 @@ p{
 dark purple background for Who We Are section/chapter headers #231A28
 teal nav hover color #2AD1BB
 
-fonts: font-family: 'Roboto', sans-serif;
-font-family:'Raleway', Georgia, serif;*/
+fonts: font-family:'Roboto', Helvetica, sans-serif;
+font-family:'Raleway', Georgia, serif;
+font-family: 'Ubuntu', Helvetica, sans-serif;*/
