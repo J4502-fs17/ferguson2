@@ -27,6 +27,8 @@ html{
     font-family:'Roboto', Helvetica, sans-serif;
     color: white;
     text-shadow: 3px 3px 3px #2F2E30;
+    outline-style: solid;
+    outline-color: #2C182E;
 
 }
 
