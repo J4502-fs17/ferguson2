@@ -124,8 +124,8 @@ p{
   font-size: 1.250em;
   font-family:'Raleway', Georgia, serif;
   color: #231A28;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 125px;
+  padding-right: 125px;
 }
 
 
@@ -138,6 +138,17 @@ p{
   overflow: auto;
 }
 
+#gofurther a:link {
+    color: #78088A;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#gofurther a:visited{
+  color: #413C42;
+}
+
+}
 #footer{
   color:black;
   font-family:'Raleway', Georgia, serif;
