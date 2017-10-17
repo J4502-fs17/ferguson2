@@ -27,7 +27,7 @@ html{
     font-family:'Roboto', Helvetica, sans-serif;
     color: white;
     text-shadow: 2px 2px 2px #391E3B;
-    text-shadow width: 25%; 
+    text-shadow width: 25%;
 
 
 
@@ -69,9 +69,15 @@ html{
   background-color: #CABAD2;
 }
 
+#whoweare {
+  height:750px;
+}
 
 #mislan {
   padding-left: 200px;
+  text-align: left;
+  float: left;
+
 }
 #mislan img{
   width: 270px;
@@ -81,6 +87,7 @@ html{
 #researcher {
   text-align: right;
   padding-right: 200px;
+  float: right;
 }
 #researcher img{
   width: 465px;
