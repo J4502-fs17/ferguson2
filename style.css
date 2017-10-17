@@ -27,7 +27,7 @@ html{
     font-family:'Roboto', Helvetica, sans-serif;
     color: white;
     text-shadow: 2px 2px 2px #391E3B;
-    text-shadow width: 25%; 
+    text-shadow width: 25%;
 
 
 
@@ -133,6 +133,15 @@ p{
   padding-left: 125px;
   padding-right: 125px;
 }
+
+
+/*#link{
+  font-size: 1.250em;
+  font-family:'Raleway', Georgia, serif;
+  color: #231A28;
+  padding-left: 15px;
+  padding-right: 15px;
+}*/
 
 
 
