@@ -22,11 +22,11 @@ html{
     top: 50%;
     width: 100%;
     text-align: center;
-    font-size: 2.0em;
+    font-size: 2.5em;
     font-weight: bold;
     font-family:'Roboto', Helvetica, sans-serif;
     color: white;
-    text-shadow: 7px 7px 7px #231A28;
+    text-shadow: 1px 1px 1px #231A28;
 }
 
 #nav ul{
