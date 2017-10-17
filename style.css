@@ -80,9 +80,9 @@ html{
 
 #researcher {
   text-align: right;
+  padding-right: 200px;
 }
 #researcher img{
-  padding-right: 200px;
   width: 465px;
   height:262.5px;
 }
