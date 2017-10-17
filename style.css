@@ -27,7 +27,11 @@ html{
     font-family:'Roboto', Helvetica, sans-serif;
     color: white;
     text-shadow: 2px 2px 2px #391E3B;
+<<<<<<< HEAD
     text-shadow width: 25%;
+=======
+    text-shadow width: 50%;
+>>>>>>> origin/master
 
 
 
@@ -134,6 +138,11 @@ p{
   padding-right: 125px;
 }
 
+#gallery img{
+padding-left: 15px;
+display: block;
+margin: auto;
+}
 
 /*#link{
   font-size: 1.250em;
