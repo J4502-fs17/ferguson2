@@ -27,7 +27,7 @@ html{
     font-family:'Roboto', Helvetica, sans-serif;
     color: white;
     text-shadow: 2px 2px 2px #391E3B;
-    
+
 
 
 
@@ -139,9 +139,15 @@ display: block;
 margin: auto;
 }
 
-#map img{
-padding-left: 15px;
-}
+/*#link{
+  font-size: 1.250em;
+  font-family:'Raleway', Georgia, serif;
+  color: #231A28;
+  padding-left: 15px;
+  padding-right: 15px;
+}*/
+
+
 
 #gofurther img{
   width: 500px;
