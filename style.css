@@ -71,9 +71,10 @@ img{
 
 #mislan{
   width: 500px;
+  height: 500px
   padding: 15px;
   float: left;
-  margin: 0 0 10px 10px;
+  margin: 0px 100px 0px 0px;
   overflow: auto;
 
 }
