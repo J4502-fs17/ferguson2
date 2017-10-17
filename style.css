@@ -69,18 +69,21 @@ html{
 }
 
 
-
+#mislan {
+  padding-left: 200px;
+}
 #mislan img{
-  padding-left: 250px;
   width: 270px;
   height:360px;
 }
 
 #researcher {
-  texxt-align: right;
+  text-align: right;
 }
 #researcher img{
-  padding-right: 250px;
+  padding-right: 200px;
+  width: 465px;
+  height:262.5px;
 }
 
 h2{
