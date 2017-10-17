@@ -4,6 +4,7 @@ body{
   background-color:#CABAD2;
   background-attachment: fixed;
   background-size: cover;
+  font-size:16px;
 }
 
 html{
@@ -11,7 +12,7 @@ html{
 }
 
 .layer {
-  background-color: rgba(202,186,210, 0.95);
+  background-color: rgba(202,186,210,0.95);
 }
 
 #header{
