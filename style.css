@@ -27,7 +27,7 @@ html{
     font-family:'Roboto', Helvetica, sans-serif;
     color: white;
     text-shadow: 2px 2px 2px #391E3B;
-    text-shadow width: 25%;
+  
 
 
 
@@ -35,10 +35,9 @@ html{
 
 #nav ul{
     list-style-type:none;
-    margin:auto;
     display:block;
     padding:0;
-    width:98%;
+    width:98.8%;
     background-color:rgba(202,186,210, 1);
     border-style:none;
     text-align:center;
@@ -137,9 +136,23 @@ p{
   font-size: 1.250em;
   font-family:'Raleway', Georgia, serif;
   color: #231A28;
+  padding-left: 125px;
+  padding-right: 125px;
+}
+
+#gallery img{
+padding-left: 15px;
+display: block;
+margin: auto;
+}
+
+/*#link{
+  font-size: 1.250em;
+  font-family:'Raleway', Georgia, serif;
+  color: #231A28;
   padding-left: 15px;
   padding-right: 15px;
-}
+}*/
 
 
 
@@ -151,6 +164,17 @@ p{
   overflow: auto;
 }
 
+#gofurther a:link {
+    color: #78088A;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#gofurther a:visited{
+  color: #413C42;
+}
+
+}
 #footer{
   color:black;
   font-family:'Raleway', Georgia, serif;
