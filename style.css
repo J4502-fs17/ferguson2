@@ -134,7 +134,15 @@ p{
   padding-right: 125px;
 }
 
+#gallery img{
+padding-left: 15px;
+display: block;
+margin: auto;
+}
 
+#map img{
+padding-left: 15px;
+}
 
 #gofurther img{
   width: 500px;
