@@ -27,7 +27,7 @@ html{
     font-family:'Roboto', Helvetica, sans-serif;
     color: white;
     text-shadow: 2px 2px 2px #391E3B;
-    text-shadow width: 50%; 
+    text-shadow width: 50%;
 
 
 
@@ -35,10 +35,9 @@ html{
 
 #nav ul{
     list-style-type:none;
-    margin:auto;
     display:block;
     padding:0;
-    width:98%;
+    width:98.8%;
     background-color:rgba(202,186,210, 1);
     border-style:none;
     text-align:center;
