@@ -27,6 +27,7 @@ html{
     font-family:'Roboto', Helvetica, sans-serif;
     color: white;
     text-shadow: 3px 3px 3px #000;
+    outline-color: #231A28;
 }
 
 #nav ul{
