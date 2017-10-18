@@ -68,7 +68,7 @@ html{
 }
 
 #whoweare {
-  height:750px;
+  height:600px;
 }
 
 #whoweare a:link {
@@ -78,28 +78,32 @@ html{
 }
 
 #mislan {
-  padding-left: 100px;
+  padding-left: 120px;
   text-align: center;
   float: left;
-  height:700px;
+  height:500px;
   width:500px
 
 }
 #mislan img{
-  width: 270px;
-  height:360px;
+  object-fit:cover;
+  width:250px;
+  height:250px;
+  border-radius:50%;
 }
 
 #researcher {
   text-align: center;
-  padding-right: 100px;
+  padding-right: 120px;
   float: right;
-  height:700px;
+  height:500px;
   width: 500px;
 }
 #researcher img{
-  width: 465px;
-  height:262.5px;
+  object-fit:cover;
+  width: 250px;
+  height:250px;
+  border-radius:50%;
 }
 
 h2{
