@@ -73,7 +73,7 @@ html{
 
 #mislan {
   padding-left: 200px;
-  text-align: left;
+  text-align: center;
   float: left;
 
 }
@@ -82,8 +82,21 @@ html{
   height:360px;
 }
 
+.circular--portrait {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular--portrait img {
+  width: 100%;
+  height: auto;
+}
+
 #researcher {
-  text-align: right;
+  text-align: center;
   padding-right: 200px;
   float: right;
 }
