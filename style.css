@@ -2,13 +2,9 @@ body{
   background-image: url("BackgroundPhoto.jpg");
   background-repeat: no-repeat;
   background-color:#CABAD2;
-<<<<<<< HEAD
-
-=======
   background-attachment: fixed;
   background-size: cover;
   font-size:100%;
->>>>>>> origin/master
 }
 
 html{
