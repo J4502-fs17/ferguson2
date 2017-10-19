@@ -65,10 +65,10 @@ html{
   display: block;
   margin: auto;
 }
-#intro{
+/*#intro{
   color:#231A28;
   background-color: #CABAD2;
-}
+}*/
 
 #introtext{
   text-align: left;
@@ -82,7 +82,7 @@ html{
 
 #whoweare {
   height:600px;
-  font-size:150%;
+  font-size:170%;
   font-family: 'Ubuntu', Helvetica, sans-serif;
 }
 
@@ -93,11 +93,10 @@ html{
 
 #mislan {
   padding-left: 1px;
+  padding-bottom:5px;
   text-align: center;
-  float: left;
-  height:500px;
-  width:500px;
-
+  float:left;
+  height:650px;
 }
 #mislan img{
   object-fit:cover;
@@ -108,10 +107,10 @@ html{
 
 #researcher {
   text-align: center;
+  padding-bottom:5px;
   padding-right: 1px;
-  float: right;
-  height:500px;
-  width: 500px;
+  float:right;
+  height:650px;
 }
 
 #researcher img{
