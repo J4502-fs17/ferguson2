@@ -60,6 +60,11 @@ html{
     margin: 0 auto;
 }
 
+#intro img{
+  padding-left: 15px;
+  display: block;
+  margin: auto;
+}
 #intro{
   color:#231A28;
   background-color: #CABAD2;
