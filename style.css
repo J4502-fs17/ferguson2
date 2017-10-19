@@ -83,7 +83,7 @@ html{
 }
 
 #whoweare {
-  height:1000px;
+  height:1200px;
   font-size:170%;
   font-family: 'Ubuntu', Helvetica, sans-serif;
 }
@@ -100,7 +100,7 @@ html{
   padding-bottom:5px;
   text-align: center;
   float:left;
-  height:500px;
+  height:600px;
 }
 #mislan img{
   object-fit:cover;
@@ -114,7 +114,7 @@ html{
   padding-bottom:5px;
   padding-right: 1px;
   float:right;
-  height:500px;
+  height:600px;
 }
 
 #researcher img{
