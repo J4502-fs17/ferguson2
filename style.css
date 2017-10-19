@@ -81,7 +81,7 @@ html{
 }
 
 #whoweare {
-  height:600px;
+  height:800px;
   font-size:1.45em;
 }
 
@@ -92,11 +92,11 @@ html{
 }
 
 #mislan {
-  padding-left: 120px;
+  padding-left: 1px;
   text-align: center;
   float: left;
-  height:600px;
-  width:600px;
+  height:500px;
+  width:500px;
 
 }
 #mislan img{
@@ -108,10 +108,10 @@ html{
 
 #researcher {
   text-align: center;
-  padding-right: 120px;
+  padding-right: 1px;
   float: right;
-  height:600px;
-  width: 600px;
+  height:500px;
+  width: 500px;
 }
 
 #researcher img{
