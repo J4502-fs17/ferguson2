@@ -2,13 +2,6 @@ body{
   background-image: url("BackgroundPhoto.jpg");
   background-repeat: no-repeat;
   background-color:#CABAD2;
-<<<<<<< HEAD
-
-=======
-  background-attachment: fixed;
-  background-size: cover;
-  font-size:100%;
->>>>>>> origin/master
 }
 
 html{
@@ -31,8 +24,6 @@ html{
     font-family:'Roboto', Helvetica, sans-serif;
     color: white;
     text-shadow: 2px 2px 2px #391E3B;
-
-
 
 }
 
@@ -71,18 +62,12 @@ html{
   background-color: #CABAD2;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 #introtext{
   text-align: left;
   padding-left: 50%;
   padding-right: 50px;
-  text
-=======
-#img{
-  padding-left: 15px;
->>>>>>> origin/master
-=======
+}
+
 #whoweare {
   height:600px;
 }
@@ -120,7 +105,6 @@ html{
   width: 250px;
   height:250px;
   border-radius:50%;
->>>>>>> origin/master
 }
 
 h2{
