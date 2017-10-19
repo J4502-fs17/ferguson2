@@ -81,12 +81,13 @@ html{
 }
 
 #whoweare {
-  height:800px;
-  font-size:1.45em;
+  height:600px;
+  font-size:150%;
+  font-family: 'Ubuntu', Helvetica, sans-serif;
 }
 
 #whoweare a:link {
-  
+
     text-decoration: none;
     font-weight: bold;
 }
