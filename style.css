@@ -2,12 +2,9 @@ body{
   background-image: url("BackgroundPhoto.jpg");
   background-repeat: no-repeat;
   background-color:#CABAD2;
-<<<<<<< HEAD
-=======
   background-attachment: fixed;
   background-size: cover;
   font-size:100%;
->>>>>>> origin/master
 }
 
 html{
@@ -68,22 +65,14 @@ html{
   background-color: #CABAD2;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
 #introtext{
   text-align: left;
   padding-left: 50%;
   padding-right: 50px;
-<<<<<<< HEAD
-=======
-  text
 }
 
 #img {
   padding-left: 15px;
->>>>>>> origin/master
 }
 
 #whoweare {
