@@ -34,7 +34,7 @@ html{
     list-style-type:none;
     display:block;
     padding:0;
-    width:100%;
+    width:98.8%;
     background-color:rgba(202,186,210, 1);
     border-style:none;
     text-align:center;
@@ -222,7 +222,7 @@ p{
 .nav {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	/*justify-content: space-between;*/
   flex-wrap: wrap;
   list-style-type: none;
 }
@@ -231,6 +231,7 @@ p{
   .nav {
     flex-direction: row;
     align-items: flex-start;
+    justify-content: center;
   }
 }
 
