@@ -34,7 +34,7 @@ html{
     list-style-type:none;
     display:block;
     padding:0;
-    width:98.8%;
+    width:100%;
     background-color:rgba(202,186,210, 1);
     border-style:none;
     text-align:center;
@@ -223,6 +223,8 @@ p{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+  flex-wrap: wrap;
+  list-style-type: none;
 }
 
 @media screen and (min-width:600px) {
