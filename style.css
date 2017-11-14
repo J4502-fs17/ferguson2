@@ -160,7 +160,7 @@ h6{
   background-color: #231A28;
   padding:5px;
   width: 40%;
-  margin-left: 125px;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -336,7 +336,7 @@ h4{
       grid-gap: 20px;
       grid-template-areas:
       "f f f f"
-      ". g g g"
+      "g g g g"
       "h h h h"
       "i i i i"
       "j j j j"
