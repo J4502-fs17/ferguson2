@@ -252,9 +252,10 @@ nav ul{
     display:flex;
     flex-direction: row;
     align-items: flex-start;
-  justify-content: space-around;
+  justify-content: center;
   }
-  .menu-trigger{
+
+.menu-trigger{
     display:none;
   }
 
@@ -262,6 +263,14 @@ nav ul{
   width:80%;
   margin:0 auto;
   }
+}
+
+@media screen and (min-width: 800px) {
+
+  nav ul {
+    justify-content: space-around;
+  }
+
 }
 
 
