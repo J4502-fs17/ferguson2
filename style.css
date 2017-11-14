@@ -230,6 +230,8 @@ p{
 }
 .menu-trigger{
   order: 1;
+  width:4em;
+  color:white;
 }
 
 .nav{
