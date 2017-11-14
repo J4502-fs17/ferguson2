@@ -235,6 +235,15 @@ p{
   }
 }
 
+@media screen and (min-width: 600px){
+  .nav {
+    display:flex;
+  }
+  .menu-trigger{
+    display:none;
+  }
+}
+
 
 /*lavender background for intro section/chapter body #CABAD2
 dark purple background for Who We Are section/chapter headers #231A28
