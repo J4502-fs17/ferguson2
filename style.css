@@ -219,6 +219,11 @@ p{
   margin-right:5px;
 }
 
+.nav {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
 
 
 
