@@ -136,12 +136,12 @@ h2{
 }
 
 h3{
-  font-size: 5.125em;
+  font-size: 3em;
   font-family:'Roboto', Helvetica, sans-serif;
   font-weight: bold;
   color: white;
   background-color: #231A28;
-  padding-left: 80px;
+text-align: center;
 }
 
 h4{
@@ -269,6 +269,13 @@ nav ul{
 }
 
 }
+@media screen and (min-width: 700px) {
+h3{
+  font-size: 5.125em;
+  padding-left: 80px;
+  text-align: left;
+}
+}
 
 @media screen and (min-width: 800px) {
 
@@ -277,6 +284,7 @@ nav ul{
   }
 
 }
+
 
 @media screen and (min-width: 1000px){
 
