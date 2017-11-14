@@ -75,11 +75,11 @@ nav li a:hover{
   background-color: #CABAD2;
 }*/
 
-#introtext{
+/*#introtext{
   text-align: left;
   padding-left: 50%;
   padding-right: 50px;
-}
+}*/
 
 /*#img {
   display: block;
@@ -273,6 +273,63 @@ nav ul{
 
 }
 
+@media screen and (min-width: 1000px){
+  .introarticle{
+    display:grid;
+    grid-template-columns: 200px 1fr 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-areas:
+    ". a a ."
+    "b b b b"
+
+  }
+  #intropic{
+    width:100%;
+    grid-area:a;
+  }
+
+  .section1{
+    grid-area:b;
+  }
+
+  .introarticle{
+    display:grid;
+    grid-template-columns: 200px 1fr 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-areas:
+    ". a a ."
+    "b b b b"
+  }
+
+  .section2{
+      grid-area:d;
+    }
+  .section3{
+      grid-area:e;
+    }
+
+/*  .image{
+    grid-area:c;
+    margin:0 auto;
+  }
+  .section2{
+    grid-area:d;
+  }
+  .section3{
+    grid-area:e;
+  }
+  .pullquote{
+    margin-top:0px;
+    grid-area: f;
+  }
+  .pullquote2{
+    margin-top:0px;
+    grid-area: g;
+  }
+  .section1 p:first-of-type, .section2 p:first-of-type, .section2 p:first-of-type{
+    margin-top: 0px;
+  }*/
+}
 
 
 
