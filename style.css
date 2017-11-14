@@ -226,6 +226,14 @@ p{
   flex-wrap: wrap;
   list-style-type: none;
 }
+.menu-trigger{
+  order: 1;
+}
+
+.nav{
+  display:none;
+}
+
 
 @media screen and (min-width:600px) {
   .nav {
@@ -235,7 +243,7 @@ p{
   }
 }
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 800px){
   .nav {
     display:flex;
   }
