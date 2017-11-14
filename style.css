@@ -228,10 +228,13 @@ nav ul {
   flex-wrap: wrap;
   list-style-type: none;
 }
+
+
 .menu-trigger{
   order: 1;
   font-size: 2em;
   color:white;
+
 }
 
 nav ul{
@@ -241,20 +244,17 @@ nav ul{
 
 @media screen and (min-width:600px) {
   nav ul {
+    display:flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: center;
-  }
-}
-
-@media screen and (min-width: 600px){
-  nav ul {
-    display:flex;
+  justify-content: space-around;
   }
   .menu-trigger{
     display:none;
   }
 }
+
+
 
 
 /*lavender background for intro section/chapter body #CABAD2
