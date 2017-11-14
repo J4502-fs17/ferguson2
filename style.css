@@ -225,7 +225,7 @@ p{
 	justify-content: space-between;
 }
 
-@media screen and (min-width:800px) {
+@media screen and (min-width:600px) {
   .nav {
     flex-direction: row;
     align-items: flex-start;
