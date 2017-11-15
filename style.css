@@ -17,9 +17,9 @@ html{
 
 #subtitle{
 background-color:#231A28;
+color:white; 
 text-align:center;
 font-size:1.5em;
-text-decoration-color:white;
 font-family:'Roboto', Helvetica, sans-serif;
 }
 
