@@ -136,12 +136,12 @@ h2{
 }
 
 h3{
-  font-size: 3em;
+  font-size: 1em;
   font-family:'Roboto', Helvetica, sans-serif;
-  font-weight: bold;
+  font-weight: medium;
   color: white;
   background-color: #231A28;
-text-align: center;
+text-align: right;
 }
 
 h4{
@@ -166,7 +166,7 @@ h6{
 
 p{
   font-size: 2.250em;
-  font-family:'Raleway700', Georgia, serif;
+  font-family:'Raleway', Georgia, serif;
   font-weight: medium;
   color: #231A28;
 padding-left: 15px;
@@ -271,7 +271,7 @@ nav ul{
 }
 @media screen and (min-width: 700px) {
 h3{
-  font-size: 5.125em;
+  font-size: 4.125em;
   padding-left: 80px;
   text-align: left;
 }
