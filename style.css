@@ -4,6 +4,7 @@ body{
   background-color:#CABAD2;
   background-attachment: fixed;
   background-size: cover;
+  font-size:100%;
 }
 
 html{
@@ -13,6 +14,11 @@ html{
 .layer {
   background-color: rgba(202,186,210,0.95);
 }
+
+#subtitle{
+
+}
+  
 
 #container{
 width:95%;
@@ -67,18 +73,18 @@ nav li a:hover{
 #intro img{
   display: block;
   margin: auto;
-  max-width: 95%;
+  max-width: 100%;
 }
 /*#intro{
   color:#231A28;
   background-color: #CABAD2;
 }*/
 
-/*#introtext{
+#introtext{
   text-align: left;
   padding-left: 50%;
   padding-right: 50px;
-}*/
+}
 
 /*#img {
   display: block;
@@ -96,6 +102,7 @@ nav li a:hover{
     text-decoration: none;
     font-weight: bold;
     color: #78088A;
+
 }
 
 #mislan {
@@ -136,19 +143,19 @@ h2{
 }
 
 h3{
-  font-size: 3em;
+  font-size: 5.125em;
   font-family:'Roboto', Helvetica, sans-serif;
   font-weight: bold;
   color: white;
   background-color: #231A28;
-text-align: center;
+  padding-left: 80px;
 }
 
 h4{
   font-size: 2.188em;
   font-family:'Roboto', Helvetica, sans-serif;
   color: #231A28;
-  text-align: center;
+  padding-left: 125px;
   font-weight: bold;
 }
 
@@ -158,9 +165,12 @@ h6{
   font-style: italic;
   color: white;
   background-color: #231A28;
-  padding:5px;
-  width: 80%;
-  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 40%;
+  margin-left: 125px;
   text-align: center;
 }
 
@@ -169,20 +179,19 @@ p{
   font-family:'Raleway700', Georgia, serif;
   font-weight: medium;
   color: #231A28;
-padding-left: 15px;
-padding-right: 15px;
+  padding-left: 125px;
+  padding-right: 125px;
 }
 
 #gallery img{
   display: block;
   margin: auto;
-  max-width:95%;
 }
 
 #map img{
   display: block;
   margin: auto;
-  max-width:95%;
+  max-width:100%;
 }
 
 /*#link{
@@ -194,9 +203,11 @@ padding-right: 15px;
 }*/
 
 #gofurther img{
-  max-width: 95%;
+  max-width: 100%;
   display: block;
   margin: auto;
+  /*float: right;
+  margin: 0 0 10px 10px;*/
   overflow: auto;
 }
 
@@ -246,10 +257,9 @@ nav ul{
     display:flex;
     flex-direction: row;
     align-items: flex-start;
-  justify-content: center;
+  justify-content: space-around;
   }
-
-.menu-trigger{
+  .menu-trigger{
     display:none;
   }
 
@@ -257,133 +267,8 @@ nav ul{
   width:80%;
   margin:0 auto;
   }
-
-  p{
-  padding-left: 40px;
-  padding-right: 40px;
-}
-#gofurther img{
-  float: right;
-  margin: 0 0 10px 10px;
-  padding: 10px;
 }
 
-}
-@media screen and (min-width: 700px) {
-h3{
-  font-size: 5.125em;
-  padding-left: 80px;
-  text-align: left;
-}
-
-h4{
-  font-size: 2.188em;
-  padding-left: 125px;
-  font-weight: bold;
-  text-align: left;
-}
-
-}
-
-@media screen and (min-width: 800px) {
-
-  nav ul {
-    justify-content: space-around;
-  }
-
-}
-
-
-@media screen and (min-width: 1000px){
-
-
-  .introarticle{
-    display:grid;
-    grid-template-columns: 200px 1fr 1fr 1fr;
-    grid-gap: 20px;
-    grid-template-areas:
-    ". a a ."
-    "b b b b"
-
-  }
-  #intropic{
-    width:100%;
-    grid-area:a;
-  }
-
-  .section1{
-    grid-area:b;
-  }
-
-  .whowearearticle{
-    display:grid;
-    grid-template-columns: 200px 1fr 1fr 1fr;
-    grid-gap: 20px;
-    grid-template-areas:
-    "c c d d"
-  }
-
-  #mislan{
-      grid-area:c;
-    }
-  #researcher{
-      grid-area:d;
-    }
-
-    .chapter1article{
-      display:grid;
-      grid-template-columns: 200px 1fr 1fr 1fr;
-      grid-gap: 20px;
-      grid-template-areas:
-      "f f f f"
-      "g g g g"
-      "h h h h"
-      "i i i i"
-      "j j j j"
-    }
-
-.section2{
-        grid-area:f;
-      }
-.pullquote{
-        grid-area:g;
-        margin:0 auto;
-      }
-#gallery{
-  grid-area: h;
-}
-.section3{
-  grid-area:i;
-}
-.section4{
-  grid-area:j;
-}
-
-.section1 p:first-of-type, .section2 p:first-of-type, .section2 p:first-of-type{
-  margin-top: 0px;
-}
-
-/*  .image{
-    grid-area:c;
-    margin:0 auto;
-  }
-  .section2{
-    grid-area:d;
-  }
-  .section3{
-    grid-area:e;
-  }
-  .pullquote{
-    margin-top:0px;
-    grid-area: f;
-  }
-  .pullquote2{
-    margin-top:0px;
-    grid-area: g;
-  }
-  .section1 p:first-of-type, .section2 p:first-of-type, .section2 p:first-of-type{
-    margin-top: 0px;
-  }*/
 
 
 
