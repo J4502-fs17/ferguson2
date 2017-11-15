@@ -16,9 +16,12 @@ html{
 }
 
 #subtitle{
-
+background-color:#CABAD2
+text-align:center;
+font-size:1.5em;
+font-family:'Roboto', Helvetica, sans-serif; 
 }
-  
+
 
 #container{
 width:95%;
@@ -143,20 +146,12 @@ h2{
 }
 
 h3{
-<<<<<<< HEAD
   font-size: 5.125em;
-=======
-  font-size: 1em;
->>>>>>> origin/master
   font-family:'Roboto', Helvetica, sans-serif;
-  font-weight: medium;
+  font-weight: bold;
   color: white;
   background-color: #231A28;
-<<<<<<< HEAD
   padding-left: 80px;
-=======
-text-align: right;
->>>>>>> origin/master
 }
 
 h4{
@@ -184,7 +179,7 @@ h6{
 
 p{
   font-size: 1.5em;
-  font-family:'Raleway', Georgia, serif;
+  font-family:'Raleway700', Georgia, serif;
   font-weight: medium;
   color: #231A28;
   padding-left: 125px;
@@ -275,43 +270,6 @@ nav ul{
   width:80%;
   margin:0 auto;
   }
-<<<<<<< HEAD
-=======
-
-  p{
-  padding-left: 40px;
-  padding-right: 40px;
-}
-#gofurther img{
-  float: right;
-  margin: 0 0 10px 10px;
-  padding: 10px;
-}
-
-}
-@media screen and (min-width: 700px) {
-h3{
-  font-size: 4.125em;
-  padding-left: 80px;
-  text-align: left;
-}
-
-h4{
-  font-size: 2.188em;
-  padding-left: 125px;
-  font-weight: bold;
-  text-align: left;
-}
-
-}
-
-@media screen and (min-width: 800px) {
-
-  nav ul {
-    justify-content: space-around;
-  }
-
->>>>>>> origin/master
 }
 
 
