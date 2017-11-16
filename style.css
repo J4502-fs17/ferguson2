@@ -1,7 +1,7 @@
 body{
   background-image: url("BackgroundPhoto.jpg");
   background-repeat: no-repeat;
-  /*background-color:#CABAD2;*/
+   background-image: url("BackgroundPhoto.jpg");/*background-color:#CABAD2;*/
   background-attachment: fixed;
   background-size: cover;
   font-size:100%;
