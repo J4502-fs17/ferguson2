@@ -85,7 +85,7 @@ h5{
 }
 
 p{
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-family:'Raleway', Georgia, serif;
   font-weight: medium;
   color: #231A28;
@@ -230,6 +230,9 @@ nav ul{
     display:block;
     width:50%;
     padding-top:20px;
+  }
+  p{
+    font-size: 1.4em;
   }
 
   #subtitle {
