@@ -102,6 +102,7 @@ nav ul{
     display:block;
     padding: 0;
     background-color:rgba(202,186,210,1);
+    border-radius: 3px;
     text-align:center;
 }
 
