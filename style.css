@@ -62,7 +62,7 @@ h4{
   font-family:'Roboto', Helvetica, sans-serif;
   color: #231A28;
   font-weight: bold;
-  padding: 0 25px 0 25px;
+text-align: center;
 }
 
 h6{
@@ -132,15 +132,18 @@ nav li a:hover{
 }
 
 .article img{
-  width:100%;
+  width:98%;
+  margin: 0 auto;
 }
 
 #gallery img{
   width:100%;
+  margin: 0 auto;
 }
 
 #map img{
   width:100%;
+  margin: 0 auto;
 }
 
 /*whoweare*/
@@ -233,6 +236,10 @@ nav ul{
   }
   p{
     font-size: 1.4em;
+  }
+  h4{
+    padding: 0 25px 0 25px;
+    text-align: left;
   }
 
   #subtitle {
