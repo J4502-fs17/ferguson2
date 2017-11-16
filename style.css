@@ -276,7 +276,11 @@ nav ul{
   }
 }
 
-
+@media screen and (min-width:900px) {
+  h3 {
+    font-size:5.125em;
+  }
+}
 
 
 /*lavender background for intro section/chapter body #CABAD2
