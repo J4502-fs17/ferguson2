@@ -1,10 +1,10 @@
 body{
-  background-image: url("BackgroundPhoto.jpg");
+  background-image: url("img/BackgroundPhoto.jpg");
   background-repeat: no-repeat;
-  background-color:#CABAD2;
+  /*background-color:#CABAD2;*/
   background-attachment: fixed;
   background-size: cover;
-  font-size:100%;
+
 }
 
 html{
@@ -12,7 +12,7 @@ html{
 }
 
 .layer {
-  background-color: rgba(202,186,210,0.95);
+  background-color: rgba(202,186,210,0.90);
 }
 
 #subtitle{
@@ -30,11 +30,11 @@ margin:0 auto;
 }
 
 #header{
-    line-height: 100px;
+    /*line-height: 100px;
     margin: auto;
     margin-top: -50px;
     top: 50%;
-    width: 100%;
+    width: 100%;*/
     text-align: center;
     font-size: 2.5em;
     font-weight: bold;
@@ -48,9 +48,8 @@ nav ul{
     list-style-type:none;
     display:block;
     padding:0;
-    width:98.8%;
-    background-color:rgba(202,186,210, 1);
-    border-style:none;
+    /*width:98.8%;*/
+    background-color:rgba(202,186,210,1);
     text-align:center;
 }
 
@@ -58,7 +57,7 @@ nav li a{
     display:block;
     color:#231A28;
     background-color:#CABAD2;
-    width:100%;
+    /*width:100%;*/
     padding:8px;
     margin: 0 auto;
     text-decoration:none;
@@ -84,11 +83,6 @@ nav li a:hover{
   background-color: #CABAD2;
 }*/
 
-#introtext{
-  text-align: left;
-  padding-left: 50%;
-  padding-right: 50px;
-}
 
 /*#img {
   display: block;
@@ -96,10 +90,10 @@ nav li a:hover{
   max-width: 100%;
 }*/
 
-#whoweare {
+#whoweare {/*
   height:1200px;
   font-size:170%;
-  font-family: 'Ubuntu', Helvetica, sans-serif;
+  font-family: 'Ubuntu', Helvetica, sans-serif;*/
 }
 
 #whoweare a:link {
@@ -244,6 +238,7 @@ p{
   max-width:100%;
 }
 
+-----------------------------------------------------------------------------------------
 /*#link{
   font-size: 1.250em;
   font-family:'Raleway', Georgia, serif;
