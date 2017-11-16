@@ -28,12 +28,14 @@ html{
 }
 
 #subtitle{
-background-color:#CABAD2;
-color:white;
+/*background-color:#CABAD2;*/
+color: white;
 text-align:center;
-font-size:1.0em;
+font-size: 1.0em;
 font-family:'Roboto', Helvetica, sans-serif;
 font-weight: bold;
+font-style: italic;
+text-shadow: 2px 2px 2px #391E3B;
 }
 
 #container{
@@ -41,7 +43,11 @@ width:95%;
 margin:0 auto;
 }
 
-
+h2{
+  font-size: 1.5em;
+  font-family:'Roboto', Helvetica, sans-serif;
+  color: white;
+}
 h3{
   font-size: 1.5em;
   font-family:'Roboto', Helvetica, sans-serif;
