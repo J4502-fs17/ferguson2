@@ -13,7 +13,7 @@ html{
 
 
 .layer {
-  background-color: rgba(202,186,210,0.95);
+  background-color: rgba(46,36,53,0.8);
 }
 
 #header{
@@ -21,7 +21,7 @@ html{
     font-size: 1.5em;
     font-weight: bold;
     font-family:'Roboto', Helvetica, sans-serif;
-    color: white;
+    color: #EEE5D5;
     text-shadow: 2px 2px 2px #391E3B;
     padding: 50px 0 50px 0;
 
@@ -46,14 +46,15 @@ margin:0 auto;
 h2{
   font-size: 1.5em;
   font-family:'Roboto', Helvetica, sans-serif;
-  color: white;
+  color: #EEE5D5;
 }
 h3{
   font-size: 4em;
   font-family:'Roboto', Helvetica, sans-serif;
   font-weight: bold;
-  color: white;
-  background-color: #231A28;
+  color: #EEE5D5;
+  background-color: rgba(46,44,33,0.7);
+  text-shadow: 2px 2px 2px #391E3B;
   padding: 8px 0 8px 8px;
 }
 
@@ -88,7 +89,7 @@ p{
   font-size: 1.5em;
   font-family:'Raleway', Georgia, serif;
   font-weight: medium;
-  color: #231A28;
+  color: #EEE5D5;
   line-height: 1.3em;
   padding:0 25px 0 25px;
 }
@@ -101,14 +102,14 @@ nav ul{
     list-style-type:none;
     display:block;
     padding: 0;
-    background-color:rgba(202,186,210,1);
+    background-color:rgba(46,44,33,.7);
     text-align:center;
 }
 
 nav li a{
     display:block;
-    color:#231A28;
-    background-color:#CABAD2;
+    color:#EEE5D5;
+    background-color:rgba(46,44,33,0);
     /*width:100%;*/
     padding:8px;
     margin: 0 auto;

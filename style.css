@@ -1,5 +1,9 @@
 body{
+<<<<<<< HEAD
   background-image: url("BackgroundPhoto.jpg");
+=======
+  background-image: url("img/BackgroundPhotoNew.jpg");
+>>>>>>> origin/master
   background-repeat: no-repeat;
   background-color:#CABAD2;
   background-attachment: fixed;
@@ -15,6 +19,19 @@ html{
   background-color: rgba(202,186,210,0.95);
 }
 
+<<<<<<< HEAD
+=======
+#header{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family:'Roboto', Helvetica, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 2px #391E3B;
+    padding: 50px 0 50px 0;
+}
+
+>>>>>>> origin/master
 #subtitle{
 background-color:#CABAD2;
 color:white;
@@ -47,10 +64,16 @@ margin:0 auto;
 nav ul{
     list-style-type:none;
     display:block;
+<<<<<<< HEAD
     padding:0;
     width:98.8%;
     background-color:rgba(202,186,210, 1);
     border-style:none;
+=======
+    padding: 0;
+    background-color:rgba(202,186,210,1);
+    border-radius: 3px;
+>>>>>>> origin/master
     text-align:center;
 }
 
