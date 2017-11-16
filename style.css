@@ -140,14 +140,14 @@ nav li a:hover{
 
 h2{
   font-family:'Roboto', Helvetica, sans-serif;
-  font-size: 2.3em;
+  font-size: 5.125em;
   color: #231A28 ;
   background-color:#CABAD2;
   padding-left: 15px;
 }
 
 h3{
-  font-size: 3.1em;
+  font-size: 2.125em;
   font-family:'Roboto', Helvetica, sans-serif;
   font-weight: bold;
   color: white;
@@ -263,6 +263,11 @@ nav ul{
     align-items: flex-start;
   justify-content: space-around;
   }
+
+  h3{
+    font-size: 3.125em;
+  }
+
   .menu-trigger{
     display:none;
   }
