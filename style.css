@@ -1,9 +1,8 @@
 body{
-<<<<<<< HEAD
-  background-image: url("img/BackgroundPhoto - copy.jpg");
-=======
   background-image: url("img/BackgroundPhotoNew.jpg");
->>>>>>> origin/master
+=======
+  background-image: url("img/BackgroundPhoto.jpg");
+>>>>>>> parent of 66e571b... change the background
   background-repeat: no-repeat;
   /*background-color:#CABAD2;*/
   background-size: cover;
