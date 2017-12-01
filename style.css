@@ -1,10 +1,13 @@
 body{
+<<<<<<< HEAD
   background-image: url("img/BackgroundPhoto - copy.jpg");
+=======
+  background-image: url("img/BackgroundPhotoNew.jpg");
+>>>>>>> origin/master
   background-repeat: no-repeat;
   /*background-color:#CABAD2;*/
-  background-attachment: fixed;
   background-size: cover;
-
+background-attachment: fixed;
 }
 
 html{
@@ -24,7 +27,6 @@ html{
     color: white;
     text-shadow: 2px 2px 2px #391E3B;
     padding: 50px 0 50px 0;
-
 }
 
 #subtitle{
@@ -102,6 +104,7 @@ nav ul{
     display:block;
     padding: 0;
     background-color:rgba(202,186,210,1);
+    border-radius: 3px;
     text-align:center;
 }
 
@@ -224,6 +227,10 @@ nav ul{
 
 
 @media screen and (min-width:600px) {
+  body{
+    background-attachment: fixed;
+  }
+
   #header {
     font-size: 2.0em;
     padding-top: 100px;
