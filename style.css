@@ -217,7 +217,6 @@ nav ul {
   order: 1;
   font-size: 2em;
   color:white;
-
 }
 
 nav ul{
@@ -261,6 +260,7 @@ nav ul{
   nav {
     padding-top: 85px;
   }
+
   .menu-trigger{
     display:none;
   }
