@@ -1,11 +1,8 @@
 body{
   background-image: url("img/BackgroundPhotoNew.jpg");
-=======
-  background-image: url("img/BackgroundPhoto.jpg");
->>>>>>> parent of 66e571b... change the background
   background-repeat: no-repeat;
   /*background-color:#CABAD2;*/
-  background-size: cover;
+  background-size:auto;
 background-attachment: fixed;
 }
 
@@ -96,7 +93,7 @@ html{
     font-family:'Roboto', Helvetica, sans-serif;
     color: white;
     text-shadow: 2px 2px 2px #391E3B;
-    padding: 50px 0 50px 0;
+    padding: 50px 10px 30px 10px;
 }
 
 #subtitle{
@@ -108,11 +105,11 @@ font-family:'Roboto', Helvetica, sans-serif;
 font-weight: bold;
 font-style: italic;
 text-shadow: 2px 2px 2px #391E3B;
+padding:0 10px 20px 10px;
 }
 
 #container{
-width:95%;
-margin:0 auto;
+margin:0;
 }
 
 h2{
@@ -126,7 +123,7 @@ h3{
   font-weight: bold;
   color: white;
   background-color: #231A28;
-  padding: 8px 0 8px 8px;
+  padding:8px 0 8px 3%;
 }
 
 h4{
@@ -157,12 +154,12 @@ h5{
 }
 
 p{
-  font-size: 1.15em;
+  font-size: 1.1em;
   font-family:'Raleway', Georgia, serif;
   font-weight: medium;
   color: #231A28;
-  line-height: 1.3em;
-  padding:0 25px 0 25px;
+  line-height: 1.8em;
+  padding:0px 25px 0 25px;
 }
 
 nav {
@@ -302,7 +299,7 @@ nav ul{
 
   #header {
     font-size: 2.0em;
-    padding-top: 100px;
+    padding: 100px 80px 60px 80px;
   }
 
   #gofurther img{
@@ -311,7 +308,9 @@ nav ul{
     padding-top:20px;
   }
   p{
-    font-size: 1.3em;
+    padding:0 20% 0 20%;
+    font-size: 1.1em;
+    margin-top: 30px;
   }
   h4{
     padding: 0 25px 0 25px;
@@ -337,8 +336,7 @@ nav ul{
   }
 
   #container{
-  width:80%;
-  margin:0 auto;
+  margin:0;
   }
 
   h3{
@@ -361,49 +359,14 @@ nav ul{
     font-size: 2em;
   }
   h4, h5, p{
-    padding: 0 15% 0 15%;
+    padding: 0 25% 0 25%;
    }
 
   h6{
-    margin: 25px 10% 25px 10%;
+    margin: 25px 25% 25px 25%;
   }
  }
 
-/*---grid stuff----*/
-  /*.article{
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
-    grid-template-areas:
-        "i i i"
-        "q a a"
-        "i i i"
-        "b b b"
-        "i i i"
-        "c c c";
-  }
-
-  .article img{
-    grid-area:i;
-  }
-
-  #pullquote
-   {
-    grid-area:q;
-  }
-
-  #section1{
-    grid-area:a;
-  }
-  #section2{
-    grid-area:b;
-  }
-  #section3{
-    grid-area:c;
-  }
-  #section4{
-    grid-area:d;
-  }*/
 
 
 @media screen and (min-wdth:1000px) {
