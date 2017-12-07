@@ -1,13 +1,16 @@
 body{
   background-image: url("img/BackgroundPhotoNew.jpg");
-  background-repeat: no-repeat;
+  background-repeat:repeat;
   /*background-color:#CABAD2;*/
   background-size:auto;
-background-attachment: fixed;
 }
 
-html{
-  font-size:100%;
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 
@@ -131,7 +134,7 @@ nav li a:hover{
 }
 
 .article img{
-  width:98%;
+  width:70%;
   margin: 0 auto;
 }
 
@@ -265,7 +268,7 @@ nav ul{
   }
 
   #container{
-  margin:0;
+    width: 100%;
   }
 
   h3{
