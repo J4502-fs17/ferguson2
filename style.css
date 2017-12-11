@@ -227,13 +227,18 @@ nav li a:hover{
   margin: 0 auto;
 }
 
-#gallery img{
-  width:100%;
+#photogallery{
+  width:95%;
   margin: 0 auto;
 }
 
 #map img{
-  width:100%;
+  width:95%;
+  margin: 0 auto;
+}
+
+#timeline{
+  width:95%;
   margin: 0 auto;
 }
 
