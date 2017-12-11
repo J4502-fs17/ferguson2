@@ -189,8 +189,8 @@ h8{
   font-family:'Noto Sans', Arial, sans-serif;
   font-weight: medium;
   color: #231A28;
-  line-height: 1.0em;
-  padding:0px 15px 0 15px;  
+  line-height: 1.9em;
+  padding:25px 25px 0 25px;
 }
 
 nav {
@@ -253,17 +253,19 @@ nav li a:hover{
 }
 
 /*whoweare*/
-#authorbox {
+#author{
   text-align: center;
-  padding: 20px;
+
 }
 
-#authorbox img{
+#author img{
   object-fit:cover;
   width:200px;
   height:200px;
   border-radius:50%;
 }
+
+
 /*whoweare*/
 
 #sociopic{
@@ -329,6 +331,12 @@ nav ul{
   #header {
     font-size: 2.0em;
     padding: 100px 80px 60px 80px;
+  }
+
+  p{
+    padding:0 15% 0 15%;
+    font-size: 1.1em;
+    margin-top: 30px;
   }
 
   p{
