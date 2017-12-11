@@ -3,6 +3,7 @@ body{
   background-repeat:repeat;
   /*background-color:#CABAD2;*/
   background-size:auto;
+  background-attachment: fixed;
 }
 
 html {
@@ -15,7 +16,7 @@ html {
 
 
 .layer {
-  background-color: rgba(202,186,210,0.95);
+  background-color: rgba(238,219,247,0.95);
 }
 
 #header{
@@ -46,7 +47,8 @@ margin:0;
 }
 
 .layer{
-  width:100%;
+  width:105%;
+  margin:-10px;
 }
 
 
