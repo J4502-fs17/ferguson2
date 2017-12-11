@@ -77,12 +77,13 @@ margin:0 auto;
   outline: none;
   color: white;
   padding: 14px 16px;
-  background-color:#EEEEEE;
+  background-color:#231A28;
 }
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color:#231A28;
+  background-color:#EEEEEE;
+  color: #231A28;
 }
 
 /* Dropdown content (hidden by default) */
