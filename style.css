@@ -237,9 +237,9 @@ nav li a:hover{
   margin: 0 auto;
 }
 
-#photogallery{
+#gallery img{
   width:95%;
-  margin: 0 auto;
+  margin:0 auto;
 }
 
 #map img{
@@ -412,6 +412,15 @@ nav ul{
   }
   #container{
   width:85%;
+}
+#gallery img{
+  width:85%;
+  margin:0 auto;
+}
+
+#map img{
+  width:85%;
+  margin: 0 auto;
 }
  }
 
