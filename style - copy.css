@@ -13,7 +13,7 @@ html{
 
 
 .layer {
-  background-color: rgba(58,47,24,0.8);
+  background-color: rgba(149,165,191,0.8);
 }
 
 #header{
@@ -102,7 +102,7 @@ nav ul{
     list-style-type:none;
     display:block;
     padding: 0;
-    background-color:rgba(46,44,33,.7);
+    background-color:rgba(149,165,191,.7);
     text-align:center;
 }
 
