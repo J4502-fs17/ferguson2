@@ -17,7 +17,8 @@ html {
 
 .layer {
   background-color: rgba(238,219,247,0.95);
-}
+    width:100%;
+  }
 
 #header{
     text-align: center;
@@ -42,15 +43,9 @@ padding:0 10px 20px 10px;
 }
 
 #container{
-width:100%;
-margin:0;
+width:95%;
+margin:0 auto;
 }
-
-.layer{
-  width:100%;
-}
-
-
 
 /* Navbar container */
 .navbar {
@@ -329,6 +324,9 @@ nav ul{
     padding: 0 25px 0 25px;
     text-align: left;
   }
+  #container{
+  width:90%;
+}
 
   #subtitle {
     font-size:1.5em;
@@ -396,14 +394,17 @@ nav ul{
   h6{
     margin: 25px 25% 25px 25%;
   }
+  #container{
+  width:85%;
+}
  }
-
 
 
 @media screen and (min-wdth:1000px) {
   h4, h5, p{
     padding: 0 20% 0 20%;
    }
+
  }
 
 
