@@ -129,6 +129,10 @@ margin:0 auto;
   padding-top: 60px;
 }
 
+.sticky + .dropdown-content{
+  display: block;
+}
+
 
 
 h2{
