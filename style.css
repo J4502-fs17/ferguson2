@@ -48,14 +48,14 @@ margin:0 auto;
 }
 
 /* Navbar container */
-.navbar {
+#navbar {
   overflow: hidden;
   background-color: #231A28;
   font-family: Arial;
 }
 
 /* Links inside the navbar */
-.navbar a {
+#navbar a {
   float: left;
   font-size: 16px;
   color: white;
@@ -81,7 +81,7 @@ margin:0 auto;
 }
 
 /* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
+#navbar a:hover, .dropdown:hover .dropbtn {
   background-color:#EEEEEE;
   color: #231A28;
 }
@@ -193,6 +193,7 @@ h8{
   padding:25px 25px 0 25px;
 }
 
+
 nav {
   padding-top: 25px;
 }
@@ -225,6 +226,8 @@ nav li a:hover{
     font-weight:bold;
     margin: 0 auto;
 }
+
+
 
 .article{
   display: flex;
