@@ -49,6 +49,7 @@ margin:0 auto;
 
 /* Navbar container */
 #navbar {
+  overflow:hidden;
   background-color: #231A28;
   font-family: Arial;
 }
@@ -66,7 +67,7 @@ margin:0 auto;
 /* The dropdown container */
 .dropdown {
   float:left;
-  overflow: hidden;
+  overflow:hidden;
 }
 
 /* Dropdown button */
@@ -79,7 +80,7 @@ margin:0 auto;
   background-color:#231A28;
 }
 
-/* Add a red background color to navbar links on hover */
+/* Add a background color to navbar links on hover */
 #navbar a:hover, .dropdown:hover .dropbtn {
   background-color:#EEEEEE;
   color: #231A28;
