@@ -17,7 +17,7 @@ html {
 
 
 .layer {
-  background-color: rgba(35,26,40,0.95);
+  background-color: rgba(35,26,40,0.85);
     width:100%;
   }
 
@@ -150,7 +150,7 @@ h3{
   font-family:'Roboto', Helvetica, sans-serif;
   font-weight: bold;
   color: white;
-  background-color: #231A28;
+  background-color: black;
   padding:8px 0 8px 3%;
 }
 
