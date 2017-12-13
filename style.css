@@ -50,7 +50,7 @@ margin:0 auto;
 
 /* Navbar container */
 #navbar {
-  background-color: #231A28;
+  background-color: white;
   font-family: Arial;
 }
 
@@ -58,7 +58,7 @@ margin:0 auto;
 #navbar a {
   float:left;
   font-size: 16px;
-  color: white;
+  color: #231A28;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -75,9 +75,9 @@ margin:0 auto;
   font-size: 16px;
   border: none;
   outline: none;
-  color: white;
+  color: #231A28;
   padding: 14px 16px;
-  background-color:#231A28;
+  background-color:white;
 }
 
 /* Add a background color to navbar links on hover */
