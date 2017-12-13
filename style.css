@@ -428,10 +428,9 @@ nav li a:hover{
 
 #gofurther a:link {
     display:block;
-    color: #C9A1DF;
+    color: #78088A;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.5rem;
 }
 
 
@@ -515,7 +514,8 @@ nav li a:hover{
 }
 
 .dropdown-content {
-  max-width: 300px;
+  max-width: 200px;
+  min-height: 300px;
 }
 
 
@@ -525,10 +525,11 @@ nav li a:hover{
   grid-gap: 20px;
 } */
 
-
-.dropdown-content{
-
+#gofurther img{
+  width:70%;
+  padding-top:20px;
 }
+
 
 @media screen and (min-width: 800px) {
   #whoweare{
@@ -580,7 +581,8 @@ nav li a:hover{
 }
 
 .dropdown-content {
-  max-width: 400px;
+  max-width: 350px;
+  min-height: 180px;
 }
 
 
