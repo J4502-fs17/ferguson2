@@ -17,7 +17,7 @@ html {
 
 
 .layer {
-  background-color: rgba(35,26,40,0.85);
+  background-color: rgba(35,26,40,.92);
     width:100%;
   }
 
@@ -50,18 +50,27 @@ margin:0 auto;
 
 /* Navbar container */
 #navbar {
-  background-color: #231A28;
+  background-color: white;
   font-family: Arial;
+  font-weight:bold;
 }
 
 /* Links inside the navbar */
 #navbar a {
   float:left;
   font-size: 16px;
-  color: white;
+  color: #231A28;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+.navitem1{
+  display:none;
+}
+
+.navitem2{
+  display:none;
 }
 
 /* The dropdown container */
@@ -75,9 +84,10 @@ margin:0 auto;
   font-size: 16px;
   border: none;
   outline: none;
-  color: white;
+  color: #231A28;
   padding: 14px 16px;
-  background-color:#231A28;
+  background-color:white;
+  font-weight: bold;
 }
 
 /* Add a background color to navbar links on hover */
@@ -183,12 +193,12 @@ h5{
 }
 
 h7{
-  color: white;
+  color: #78088A;
 }
 
 
 p{
-  font-size: 1.5em;
+  font-size: 1em;
   font-family:'Noto Sans', Arial, sans-serif;
   font-weight: medium;
   color: white;
@@ -388,11 +398,14 @@ nav li a:hover{
 
 #author a:link {
     display:block;
-    color:rgb(238,219,247);
+    color:#C9A1DF;
     text-decoration: none;
     font-weight: bold;
 }
 
+#author a:visited{
+  color: #C9A1DF;
+}
 
 
 /*whoweare*/
@@ -422,11 +435,11 @@ nav li a:hover{
 }
 
 #gofurther a:visited{
-  color: #413C42;
+  color:  #78088A;
 }
 
 #footer{
-  color:black;
+  color:white;
   font-family:'Raleway', Georgia, serif;
   font-size:0.8rem;
   font-style:italic;
@@ -438,8 +451,6 @@ nav li a:hover{
 
 
 @media screen and (min-width:600px) {
-
-
   #header {
     font-size: 2.0em;
     padding: 100px 80px 60px 80px;
@@ -472,6 +483,14 @@ nav li a:hover{
     width:70%;
   }
 
+  .navitem1{
+    display: block;
+  }
+
+  .navitem2{
+    display:block;
+  }
+
   /*nav ul {
     display:flex;
     flex-direction: row;
@@ -493,18 +512,16 @@ nav li a:hover{
 
 
 
-#gofurther{
+/*#gofurther{
   display:grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
-}
+} */
 
 #gofurther img{
   width:70%;
   padding-top:20px;
 }
-
-
 
 @media screen and (min-width: 800px) {
   #whoweare{
