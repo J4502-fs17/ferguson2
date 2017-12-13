@@ -388,12 +388,12 @@ nav li a:hover{
 
 #author a:link {
     display:block;
-    color: rgb(238,219,247);
+    color:rgb(238,219,247);
     text-decoration: none;
     font-weight: bold;
 }
 
-#gofurther a:visited{
+#author a:visited{
   color: #413C42;
 }
 
