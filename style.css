@@ -52,6 +52,7 @@ margin:0 auto;
 #navbar {
   background-color: white;
   font-family: Arial;
+  font-weight:bold;
 }
 
 /* Links inside the navbar */
@@ -86,6 +87,7 @@ margin:0 auto;
   color: #231A28;
   padding: 14px 16px;
   background-color:white;
+  font-weight: bold;
 }
 
 /* Add a background color to navbar links on hover */
