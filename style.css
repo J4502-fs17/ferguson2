@@ -17,7 +17,7 @@ html {
 
 
 .layer {
-  background-color: rgba(238,219,247,0.95);
+  background-color: rgba(35,26,40,0.95);
     width:100%;
   }
 
@@ -157,7 +157,7 @@ h3{
 h4{
   font-size:1.5em;
   font-family:'Roboto', Helvetica, sans-serif;
-  color: #231A28;
+  color: white;
   font-weight: bold;
 text-align: center;
 }
@@ -166,8 +166,8 @@ h6{
   font-size:1.5em;
   font-family: 'Ubuntu', Helvetica, sans-serif;
   font-style: italic;
-  color: white;
-  background-color: #231A28;
+  color:rgb(35,26,40) ;
+  background-color: rgb(238,219,247);
   text-align: center;
   padding: 25px 25px 25px 25px;
   margin: 25px 15% 25px 15%;
@@ -179,19 +179,20 @@ h5{
   font-style: italic;
   font-weight: 400;
   padding: 0 25px 0 25px;
+  color:white;
 }
 
 h7{
-  color: #FFE251;
+  color: white;
 }
 
 
 p{
-  font-size: 1.1em;
+  font-size: 1.3em;
   font-family:'Noto Sans', Arial, sans-serif;
   font-weight: medium;
-  color: #231A28;
-  line-height: 1.9em;
+  color: white;
+  line-height: 1.8em;
   padding:0px 25px 0 25px;
 }
 
@@ -199,7 +200,7 @@ h8{
   font-size: 1.1em;
   font-family:'Noto Sans', Arial, sans-serif;
   font-weight: medium;
-  color: #231A28;
+  color: white;
   line-height: 1.9em;
   padding:25px 25px 0 25px;
 }
