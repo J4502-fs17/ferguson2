@@ -497,7 +497,7 @@ nav li a:hover{
     padding: 0 20% 0 20%;
    }
 
-/*   .right{
+/ .right{
   position:absolute;
   top:40%;
   right:8%;
@@ -509,7 +509,7 @@ nav li a:hover{
   top:40%;
   left:8%;
   transform:translate(0%,-50%);
-}*/
+}
 
 
  }
