@@ -102,10 +102,9 @@ margin:0 auto;
   position: absolute;
   background-color: #f9f9f9;
   color: #231A28;
-  min-width: 160px;
-  max-width: 600px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+
 }
 
 /* Links inside the dropdown */
@@ -382,7 +381,7 @@ nav li a:hover{
 /*whoweare*/
 #author{
   text-align: center;
-  padding: 20px;
+  padding: 20px 10% 20px 10%;
 }
 
 #author p{
@@ -398,13 +397,13 @@ nav li a:hover{
 
 #author a:link {
     display:block;
-    color:#C9A1DF;
+    color:#78088A;
     text-decoration: none;
     font-weight: bold;
 }
 
 #author a:visited{
-  color: #C9A1DF;
+  color: #78088A;
 }
 
 
@@ -511,6 +510,9 @@ nav li a:hover{
   }
 }
 
+.dropdown-content {
+  max-width: 300px;
+}
 
 
 /*#gofurther{
@@ -519,6 +521,10 @@ nav li a:hover{
   grid-gap: 20px;
 } */
 
+
+.dropdown-content{
+
+}
 
 @media screen and (min-width: 800px) {
   #whoweare{
@@ -569,14 +575,21 @@ nav li a:hover{
   width:100%;
 }
 
+.dropdown-content {
+  max-width: 400px;
 }
 
 
-@media screen and (min-wdth:1000px) {
+}
+
+
+@media screen and (min-wdth: 1000px) {
   h4, h5, p{
     padding: 0 20% 0 20%;
    }
-
+   .dropdown-content {
+     max-width: 800px;
+   }
 
  }
 
