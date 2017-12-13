@@ -439,10 +439,6 @@ nav li a:hover{
   color: #78088A;
 }
 
-#gofurther a:visited{
-  color:  #C9A1DF;
-}
-
 #footer{
   color:white;
   font-family:'Raleway', Georgia, serif;
@@ -523,10 +519,6 @@ nav li a:hover{
   grid-gap: 20px;
 } */
 
-#gofurther img{
-  width:70%;
-  padding-top:20px;
-}
 
 @media screen and (min-width: 800px) {
   #whoweare{
