@@ -496,11 +496,11 @@ nav li a:hover{
 
 
 
-#gofurther{
+/*#gofurther{
   display:grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
-}
+} */
 
 #gofurther img{
   width:70%;
