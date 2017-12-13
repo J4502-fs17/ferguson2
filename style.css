@@ -64,6 +64,14 @@ margin:0 auto;
   text-decoration: none;
 }
 
+.navitem1{
+  display:none;
+}
+
+.navitem2{
+  display:none;
+}
+
 /* The dropdown container */
 .dropdown {
   float:left;
@@ -441,8 +449,6 @@ nav li a:hover{
 
 
 @media screen and (min-width:600px) {
-
-
   #header {
     font-size: 2.0em;
     padding: 100px 80px 60px 80px;
@@ -473,6 +479,14 @@ nav li a:hover{
 
   .article img{
     width:70%;
+  }
+
+  .navitem1{
+    display: block;
+  }
+
+  .navitem2{
+    display:block;
   }
 
   /*nav ul {
