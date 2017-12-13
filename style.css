@@ -435,6 +435,10 @@ nav li a:hover{
     font-size: 1.5rem;
 }
 
+#gofurther a:hover{
+  color: #78088A;
+}
+
 #gofurther a:visited{
   color:  #C9A1DF;
 }
