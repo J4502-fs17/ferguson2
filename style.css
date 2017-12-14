@@ -181,8 +181,8 @@ h6{
   font-size:1.5em;
   font-family: 'Ubuntu', Helvetica, sans-serif;
   font-style: italic;
-  color:rgb(35,26,40) ;
-  background-color: rgb(238,219,247);
+  color: black ;
+  background-color: rgba(238,219,247,0.7);
   text-align: center;
   padding: 25px 25px 25px 25px;
   margin: 25px 15% 25px 15%;
@@ -218,6 +218,11 @@ h8{
   color: white;
   line-height: 1.9em;
   padding:25px 25px 0 25px;
+}
+
+h9{
+  font-size: 0.7em;
+  color: #78088A;
 }
 
 
