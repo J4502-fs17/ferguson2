@@ -221,6 +221,10 @@ h8{
 }
 
 h9{
+  font-size: 0.9em;
+}
+
+h10{
   font-size: 0.7em;
   color: #78088A;
 }
@@ -619,7 +623,7 @@ nav li a:hover{
  }
 
 
- 
+
 
 /*lavender background for intro section/chapter body #CABAD2
 dark purple background for Who We Are section/chapter headers #231A28
