@@ -434,9 +434,10 @@ nav li a:hover{
 
 #gofurther a:link {
     display:block;
-    color: #78088A;
+    color: #C9A1DF;
     text-decoration: none;
     font-weight: bold;
+    font-size: 1.5em;
 }
 
 
