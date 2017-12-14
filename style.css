@@ -462,19 +462,6 @@ nav li a:hover{
   margin-left:5px;
   margin-right:5px;
 }
-#subheader{
-  text-align: center;
-  font-size: 1.5em;
-  font-weight: bold;
-  font-family:'Roboto', Helvetica, sans-serif;
-  color: white;
-  text-shadow: 2px 2px 2px #391E3B;
-  padding: 50px 10px 30px 10px;
-}
-
-.typewriter h1{
-  display:none;
-}
 
 
 
